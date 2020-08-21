@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -22,7 +22,7 @@
     "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
     "babel-plugin-component": "^1.1.1",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
@@ -30,5 +30,18 @@
     "eslint-plugin-vue": "^6.2.2",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "```\r npm install\r ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishenbody/vue_shopping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishenbody/vue_shopping/issues"
+  },
+  "homepage": "https://github.com/ishenbody/vue_shopping#readme"
 }
